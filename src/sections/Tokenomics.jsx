@@ -29,7 +29,7 @@ const Tokenomics = () => {
   }, []);
 
   return (
-    <div id="tokenomics" className="flex flex-col items-center justify-center pt-0 mt-0 mb-0 pb-0">
+    <div id="tokenomics" className="flex flex-col items-center justify-center pt-0 mt-28 mb-0 pb-0">
       <div className="flex flex-col md:grid md:grid-cols-2 gap-4 mb-8">
         <button className="bg-[#8da7ff] text-white rounded-3xl hover:bg-blue-700 font-anton text-[20px] border-4 border-solid border-black py-[30px] px-[150px]">
           <a href="https://pump.fun/7eVezzYBgDZ2pyLr33YXV682pBMnjeSqYLRcsBw5s5F6" target="_blank" className="">PUMP.FUN</a>
@@ -44,10 +44,10 @@ const Tokenomics = () => {
           <a href="https://dexscreener.com/" target="_blank" className="">DEXSCREENER</a>
         </button>
       </div>
-      <div className="w-full mx-16 mt-32">
+      <div className="w-[55%] h-[55%] mx-16 mt-32">
         <img src={banner2} alt="banner" className="w-full" />
       </div>
-      <h1 className="justify-center flex font-anton text-[40px] sm:text-[50px] md:text-[60px] lg:text-[70px] mt-32">SUPPLY : <span ref={counterRef}>0</span></h1>
+      <h1 className="justify-center flex font-anton text-[40px] sm:text-[50px] md:text-[60px] lg:text-[70px] mt-32 mb-20">SUPPLY : <span ref={counterRef}>0</span></h1>
     </div>
   );
 };

@@ -5,11 +5,11 @@ const Nav = () => {
   return (
     <header className='padding-x py-8 absolute z-10 w-full'>
       <nav className='flex justify-between items-center max-container'>
-        <a href="/"><img src={logoMain} alt="Logo" width={180} height={15} /></a>
+        <a href="/"><img src={logoMain} alt="Logo" width={120} height={15} /></a>
         <ul className='flex-1 flex justify-center items-center gap-16 max-md:hidden'>
           {navLinks.map((item) => (
             <li key={item.label}>
-              <a href={item.href} className='font-anton leading-normal text-3xl text-black'>{item.label}</a>
+              <a href={item.href} className='font-anton leading-normal text-3xl text-white'>{item.label}</a>
             </li>
           ))}
         </ul>
