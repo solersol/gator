@@ -9,6 +9,7 @@ import bg3 from './bg3.png'
 import img1 from './x.png'
 import img2 from './pump.png'
 import img3 from './tele.png'
+import loadingImage from "./spinner.png";
 
 
 export {
@@ -24,6 +25,7 @@ export {
     // roadmap,
     
     separatorImage,
+    loadingImage,
     
     bg3,
     img1,
