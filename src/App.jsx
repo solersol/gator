@@ -22,7 +22,7 @@ const App = () => (
     {/* <VideoBackground >
       <Hero />
     </ VideoBackground > */}
-    <section className="padding ">    <Tokenomics />    </section>
+    <section className="padding pt-10">    <Tokenomics />    </section>
     <Separator />
     <section className="w-full h-screen bg-cover bg-center " style={{ backgroundImage: `url(${rdImage})` }}><Roadmap2 /></section>
     <Separator />
