@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <section id="home" className="w-full flex flex-col justify-center items-center min-h-screen  pt-0 p-32 bg-cover bg-center">
+    <section id="home" className="w-full flex flex-col justify-center items-center min-h-screen  pb-56 bg-cover bg-center">
       <h1 className="flex justify-center font-anton text-[70px] mb-0 text-[#dfe2ff]">$GATOR</h1>
       <h2 className="flex justify-center font-anton text-[22px] mb-10 mt-0 text-[#dfe2ff]">INVESTI-GATOR RUG DETECTIVE</h2>
       <h1 className="flex justify-center font-anton text-[35px] mb-0 text-center px-4 break-words text-[#dfe2ff]">CA: INCOMING </h1>
