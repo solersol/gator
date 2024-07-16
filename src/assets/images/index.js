@@ -10,6 +10,7 @@ import img1 from './x.png'
 import img2 from './pump.png'
 import img3 from './tele.png'
 import loadingImage from "./spinner.png";
+import banner1 from './main2.png'
 
 
 export {
@@ -30,5 +31,6 @@ export {
     bg3,
     img1,
     img2,
-    img3
+    img3,
+    banner1
 }

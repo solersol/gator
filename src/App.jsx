@@ -37,6 +37,8 @@ return(
     <section className="xl:padding-l wide:padding-r padding-b bg-cover bg-center" style={{ backgroundImage: `url(${bgImage})` }}>
       <Hero />
     </section>
+    <Separator />
+
     {/* <VideoBackground >
       <Hero />
     </ VideoBackground > */}
@@ -45,9 +47,9 @@ return(
     <section className="w-full h-screen bg-cover bg-center " style={{ backgroundImage: `url(${rdImage})` }}><Roadmap2 /></section>
     <Separator />
     <section className="padding " ><About /></section>
-    <Separator />
+    
     <section className="padding"><Chart /></section>
-    <Separator />
+   
     <section className=""><StickyFooter /></section>
   </main>
 );

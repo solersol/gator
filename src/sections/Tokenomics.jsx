@@ -1,5 +1,7 @@
 import { useEffect, useRef } from "react";
 import { banner2 } from "../assets/images";
+import { banner1 } from "../assets/images";
+
 
 const Tokenomics = () => {
   const counterRef = useRef(null);
@@ -30,17 +32,20 @@ const Tokenomics = () => {
 
   return (
     <div id="tokenomics" className="flex flex-col items-center justify-center pt-0 mt-28 mb-0 pb-0">
-      <div className="flex flex-col md:grid md:grid-cols-2 gap-4 mb-8">
-        <button className="bg-[#8da7ff] text-white rounded-3xl hover:bg-blue-700 font-anton text-[20px] border-4 border-solid border-black py-[30px] px-[150px]">
+            <div className="w-[85%] h-[75%] mx-16 mb-16 ">
+        <img src={banner1} alt="banner" className="w-full" />
+      </div>
+      <div className="flex flex-col md:grid md:grid-cols-2 gap-4 my-8 ">
+        <button className="bg-[#5e5e78] text-white rounded-3xl hover:bg-[#5db226]  font-anton text-[20px] border-4 border-solid border-black py-[30px] px-[150px]">
           <a href="https://pump.fun/" target="_blank" className="">PUMP.FUN</a>
         </button>
-        <button className="bg-[#8da7ff] text-white rounded-3xl hover:bg-blue-700 font-anton text-[20px] border-4 border-solid border-black py-[30px] px-[150px]">
+        <button className="bg-[#5e5e78] text-white rounded-3xl hover:bg-[#5db226]  font-anton text-[20px] border-4 border-solid border-black py-[30px] px-[150px]">
           <a href="https://x.com/" target="_blank" className="">TWITTER</a>
         </button>
-        <button className="bg-[#8da7ff] text-white rounded-3xl hover:bg-blue-700 font-anton text-[20px] border-4 border-solid border-black py-[30px] px-[150px]">
+        <button className="bg-[#5e5e78] text-white rounded-3xl hover:bg-[#5db226]  font-anton text-[20px] border-4 border-solid border-black py-[30px] px-[150px]">
           <a href="https://t.me/" target="_blank" className="">TELEGRAM</a>
         </button>
-        <button className="bg-[#8da7ff] text-white rounded-3xl hover:bg-blue-700 font-anton text-[20px] border-4 border-solid border-black py-[30px] px-[150px]">
+        <button className="bg-[#5e5e78] text-white rounded-3xl hover:bg-[#5db226]  font-anton text-[20px] border-4 border-solid border-black py-[30px] px-[150px]">
           <a href="https://dexscreener.com/" target="_blank" className="">DEXSCREENER</a>
         </button>
       </div>
