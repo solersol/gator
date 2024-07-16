@@ -32,7 +32,7 @@ const Tokenomics = () => {
 
   return (
     <div id="tokenomics" className="flex flex-col items-center justify-center pt-0 mt-28 mb-0 pb-0">
-            <div className="w-[85%] h-[75%] mx-16 mb-16 ">
+            <div className="w-[100%] h-[75%] mx-16 mb-16 ">
         <img src={banner1} alt="banner" className="w-full" />
       </div>
       <div className="flex flex-col md:grid md:grid-cols-2 gap-4 my-8 ">
