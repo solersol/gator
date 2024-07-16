@@ -4,6 +4,8 @@ import About2 from "./About2"
 // import Roadmap from "./Roadmap"
 import Tokenomics from "./Tokenomics"
 import Roadmap2 from "./Roadmap2"
+import NewSection from "./NewSection"
+
 
 
 
@@ -14,4 +16,5 @@ export{
     Tokenomics,
     Roadmap2,
     About2,
+    NewSection
 }

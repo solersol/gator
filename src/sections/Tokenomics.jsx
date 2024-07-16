@@ -1,6 +1,5 @@
 import { useEffect, useRef } from "react";
 import { banner2 } from "../assets/images";
-import { banner1 } from "../assets/images";
 
 
 const Tokenomics = () => {
@@ -32,10 +31,8 @@ const Tokenomics = () => {
 
   return (
     <div id="tokenomics" className="flex flex-col items-center justify-center pt-0 mt-28 mb-0 pb-0">
-            <div className="w-[100%] h-[75%] mx-16 mb-16 ">
-        <img src={banner1} alt="banner" className="w-full" />
-      </div>
-      <div className="flex flex-col md:grid md:grid-cols-2 gap-4 my-8 ">
+
+      <div className="flex flex-col md:grid md:grid-cols-2 gap-4  ">
         <button className="bg-[#5e5e78] text-white rounded-3xl hover:bg-[#5db226]  font-anton text-[20px] border-4 border-solid border-black py-[30px] px-[150px]">
           <a href="https://pump.fun/" target="_blank" className="">PUMP.FUN</a>
         </button>

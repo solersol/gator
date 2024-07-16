@@ -1,5 +1,5 @@
 
-import { Hero, About, Roadmap2, About2, Tokenomics } from "./sections";
+import { Hero, About, Roadmap2, About2, Tokenomics, NewSection } from "./sections";
 // import VideoBackground from "./components/VideoBackground";
 import React, { useState, useEffect } from 'react';
 import Nav from "./components/Nav";
@@ -11,6 +11,8 @@ import LoadingScreen from "./components/LoadingScreen"; // Import the loading sc
 // Import the background image
 import bgImage from './assets/images/main.png';
 import rdImage from './assets/images/roadmap2.png';
+import main2 from './assets/images/main2.png';
+
 // import { bg3 } from "./assets/images";
 
 
@@ -38,6 +40,9 @@ return(
       <Hero />
     </section>
     <Separator />
+    <section className="w-full h-screen bg-cover bg-center " style={{ backgroundImage: `url(${main2})` }}><NewSection /></section>
+    <Separator />
+
 
     {/* <VideoBackground >
       <Hero />
