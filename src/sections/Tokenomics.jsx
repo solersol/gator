@@ -34,13 +34,13 @@ const Tokenomics = () => {
 
       <div className="flex flex-col md:grid md:grid-cols-2 gap-4  ">
         <button className="bg-[#5e5e78] text-white rounded-3xl hover:bg-[#5db226]  font-anton text-[20px] border-4 border-solid border-black py-[30px] px-[150px]">
-          <a href="https://pump.fun/5bDLAe8rQ3nKakn8KNiubntVeXEqhLSqVNZxVAiEpump" target="_blank" className="">PUMP.FUN</a>
+          <a href="https://pump.fun/" target="_blank" className="">PUMP.FUN</a>
         </button>
         <button className="bg-[#5e5e78] text-white rounded-3xl hover:bg-[#5db226]  font-anton text-[20px] border-4 border-solid border-black py-[30px] px-[150px]">
-          <a href="https://x.com/GatorOnSol_" target="_blank" className="">TWITTER</a>
+          <a href="https://x.com/" target="_blank" className="">TWITTER</a>
         </button>
         <button className="bg-[#5e5e78] text-white rounded-3xl hover:bg-[#5db226]  font-anton text-[20px] border-4 border-solid border-black py-[30px] px-[150px]">
-          <a href="https://t.me/INVESTIGATORsol" target="_blank" className="">TELEGRAM</a>
+          <a href="https://t.me/" target="_blank" className="">TELEGRAM</a>
         </button>
         <button className="bg-[#5e5e78] text-white rounded-3xl hover:bg-[#5db226]  font-anton text-[20px] border-4 border-solid border-black py-[30px] px-[150px]">
           <a href="https://dexscreener.com/" target="_blank" className="">DEXSCREENER</a>

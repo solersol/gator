@@ -5,7 +5,7 @@ const Chart = () => {
     <section className="w-full flex justify-center items-center">
       <div className="w-full max-w-6xl">
         <iframe
-          src="https://pump.fun/5bDLAe8rQ3nKakn8KNiubntVeXEqhLSqVNZxVAiEpump?embed=1&theme=dark&trades=0&info=0"
+          src="https://pump.fun/?embed=1&theme=dark&trades=0&info=0"
           width="100%"
           height="500px"
           loading="lazy"
