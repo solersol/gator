@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section id="about" className="w-full flex flex-col lg:flex-row justify-center items-center min-h-screen gap-10 px-5 pt-0 mt-0 pb-0 mb-0">
       <div className="lg:w-7/12 p-4">
-        <h1 className="font-anton text-[50px] mb-4">WHO's $GATOR</h1>
+        <h1 className="font-anton text-[50px] mb-4">WHO's $INVESTIGATOR</h1>
         <h2 className="font-anton text-[30px] mb-4">
           We have all been asking for it ... $GATOR is the first detective of his kind - RUG DETECTIVE<br/>
           <br/>$GATOR has caught all kind of  greedy malicious devs <br/>From Indian devs to Retarded devs even MCdonalds devs<br/><br/>
