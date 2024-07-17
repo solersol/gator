@@ -34,7 +34,7 @@ const Tokenomics = () => {
 
       <div className="flex flex-col md:grid md:grid-cols-2 gap-4  ">
         <button className="bg-[#5e5e78] text-white rounded-3xl hover:bg-[#5db226]  font-anton text-[20px] border-4 border-solid border-black py-[30px] px-[150px]">
-          <a href="https://pump.fun/" target="_blank" className="">PUMP.FUN</a>
+          <a href="https://pump.fun/HGzKwNFuuGzjWA9VW3DuK9x4jaYyQ6sFz4D2FwRPpump" target="_blank" className="">PUMP.FUN</a>
         </button>
         <button className="bg-[#5e5e78] text-white rounded-3xl hover:bg-[#5db226]  font-anton text-[20px] border-4 border-solid border-black py-[30px] px-[150px]">
           <a href="https://x.com/SoInvestigator" target="_blank" className="">TWITTER</a>
